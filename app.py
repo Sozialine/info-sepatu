@@ -9,7 +9,7 @@ import requests
 import streamlit as st
 from bs4 import BeautifulSoup
 
-st.set_page_config(page_title="Info Sepatu", page_icon="👟", layout="centered")
+st.set_page_config(page_title="Kicks Information", page_icon="👟", layout="centered")
 
 BASE_URL = "https://kenari.id/v1"
 MODEL = "deepseek-v4-flash"
