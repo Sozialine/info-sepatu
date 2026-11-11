@@ -185,8 +185,8 @@ def tampil_hasil(kode, info, sumber, keterangan):
 
 
 # ---------- TAMPILAN ----------
-st.title("👟 Info Sepatu")
-st.write("Scan barcode EAN di kotak sepatu, atau ketik kode artikelnya. Infonya langsung muncul.")
+st.title("👟 Kicks Information by CEL")
+st.write("Scan barcode EAN atau ketik kode artikelnya.")
 
 conn = buka_db()
 peta = muat_peta_ean()
